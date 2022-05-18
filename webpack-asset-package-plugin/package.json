@@ -1,0 +1,23 @@
+{
+  "name": "webpack-asset-package-plugin",
+  "version": "1.0.0",
+  "description": "iyb-tools webpack plugin",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "webpack build --config ./demo/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "jszip": "^3.9.1",
+    "mime-types": "^2.1.35",
+    "webpack-sources": "^3.2.3"
+  }
+}
