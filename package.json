@@ -21,5 +21,8 @@
   "homepage": "https://github.com/LeoBaruch/webpack-collection#readme",
   "dependencies": {
     "tapable": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4"
   }
 }
