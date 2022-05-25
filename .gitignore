@@ -2,3 +2,4 @@
 *.log
 node_modules/
 .vscode
+webpack-asset-package-plugin/demo/dist

@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "webpack build --config ./demo/webpack.config.js"
+    "test": "rm -rf ./demo/dist && webpack build --config ./demo/webpack.config.js"
   },
   "author": "",
   "license": "ISC",

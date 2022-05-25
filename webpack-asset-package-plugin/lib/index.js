@@ -11,7 +11,7 @@ class AssetPackagePlugin {
       folderName: 'package',
       indexFileName: 'index.json',
       baseUrl: '',
-      fileTypes: ['html', 'js', 'css'],
+      fileTypes: ['html', 'js', 'json', 'css'],
       excludeFileNames: [],
       transformExtensions: /^(gz|map)$/i,
     };
